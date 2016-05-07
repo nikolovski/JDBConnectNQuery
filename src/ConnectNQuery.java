@@ -2,7 +2,8 @@ import java.sql.*;
 
 /**
  * Created by Martino Nikolovski on 5/5/16.
- * This is a simple class that is used to connect to different
+ * ConnectNQuery is a java class that allows establishing database connection and executing queries.
+ *It is a simple, easy to use, implement and modify.
  */
 public class ConnectNQuery {
     private String jdbcURL, username, password;
